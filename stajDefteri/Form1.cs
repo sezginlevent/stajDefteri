@@ -18,18 +18,16 @@ namespace stajDefteri
         public Form1()
         {
             InitializeComponent();
-            string path = @"C:\\stajdefterim\\stajDefterim.txt";
-            var str = File.ReadAllText(path);
             
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            string path = @"C:\\stajdefterim\\stajDefterim" + dateDate.Value.Date.ToString() + ".txt";
+            string path = @"C:\\stajdefterim\\stajDefterim" + dateDate.Value.Date.ToShortDateString()+ ".txt";
             File.Create(path);
-            string path2 = @"C:\\stajdefterim\\stajDefterim" + dateDate.Value.Date.ToString() + ".txt";
+            string path2 = @"C:\\stajdefterim\\stajDefterim" + dateDate.Value.Date.ToShortDateString() + ".txt";
             allText = "Tarih: " + dateDate.Value.ToString() + " Başlık: " + tbTitle.Text + " Özet: " + tbSummary.Text + " Yapılan İş: " + tbJobText.Text;
-            File.WriteAllText(path2, allText);
+            File.WriteAllText(path2, dateDate.Value.ToString());
             MessageBox.Show("Günlük iş eklenildi.");
         }
     }
