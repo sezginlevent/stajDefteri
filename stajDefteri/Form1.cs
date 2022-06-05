@@ -28,15 +28,5 @@ namespace stajDefteri
             File.WriteAllText(path2, allText);
             MessageBox.Show("Günlük iş eklenildi.");
         }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

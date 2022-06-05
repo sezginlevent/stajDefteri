@@ -47,7 +47,6 @@
             this.button1 = new System.Windows.Forms.Button();
             this.listView1 = new System.Windows.Forms.ListView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label6 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.ımageList1 = new System.Windows.Forms.ImageList(this.components);
             this.button4 = new System.Windows.Forms.Button();
@@ -55,8 +54,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.darkModecbox = new System.Windows.Forms.CheckBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -235,9 +235,9 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.label8);
-            this.tabPage3.Controls.Add(this.label7);
-            this.tabPage3.Controls.Add(this.label6);
+            this.tabPage3.Controls.Add(this.textBox3);
+            this.tabPage3.Controls.Add(this.textBox2);
+            this.tabPage3.Controls.Add(this.textBox1);
             this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.button4);
             this.tabPage3.Controls.Add(this.groupBox1);
@@ -249,18 +249,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "DEFTER";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.BackColor = System.Drawing.Color.RosyBrown;
-            this.label6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label6.Location = new System.Drawing.Point(485, 19);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(202, 111);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "BAŞLIK";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // button5
             // 
@@ -312,13 +300,12 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(314, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(328, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(258, 751);
+            this.pictureBox1.Size = new System.Drawing.Size(235, 506);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // tabPage2
             // 
@@ -343,25 +330,35 @@
             this.darkModecbox.Text = "Dark Mode";
             this.darkModecbox.UseVisualStyleBackColor = true;
             // 
-            // label7
+            // textBox1
             // 
-            this.label7.BackColor = System.Drawing.Color.Silver;
-            this.label7.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label7.Location = new System.Drawing.Point(693, 19);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(197, 119);
-            this.label7.TabIndex = 4;
-            this.label7.Text = "yazı";
+            this.textBox1.BackColor = System.Drawing.Color.RosyBrown;
+            this.textBox1.Location = new System.Drawing.Point(482, 19);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(199, 119);
+            this.textBox1.TabIndex = 6;
+            this.textBox1.Text = "BAŞLIK";
             // 
-            // label8
+            // textBox2
             // 
-            this.label8.BackColor = System.Drawing.Color.Silver;
-            this.label8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.label8.Location = new System.Drawing.Point(485, 138);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(405, 364);
-            this.label8.TabIndex = 5;
-            this.label8.Text = "yazı";
+            this.textBox2.BackColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(687, 19);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(203, 119);
+            this.textBox2.TabIndex = 7;
+            this.textBox2.Text = "ÖZET";
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.White;
+            this.textBox3.Location = new System.Drawing.Point(484, 144);
+            this.textBox3.Multiline = true;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(406, 358);
+            this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "YAPILAN İŞ";
             // 
             // Form1
             // 
@@ -378,6 +375,7 @@
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
@@ -410,9 +408,9 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
