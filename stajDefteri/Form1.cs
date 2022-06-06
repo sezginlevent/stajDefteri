@@ -38,5 +38,20 @@ namespace stajDefteri
             sr.ReadBlock(c, 0, 20);
             textBox1.Text = sr.ReadToEnd();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            var result = MessageBox.Show("EMİN MİSİN?","UYARI",MessageBoxButtons.YesNo);
+            if (result==DialogResult.Yes)
+            {
+                string path2 = @"C:\\stajdefterim\\stajDefterim" + dateDate.Value.Date.ToShortDateString() + ".txt";
+                File.Delete(path2);
+                MessageBox.Show("Günlük iş kaldırıldı.");
+            }
+            else
+            {
+                MessageBox.Show("İptal edildi.");
+            }
+        }
     }
 }

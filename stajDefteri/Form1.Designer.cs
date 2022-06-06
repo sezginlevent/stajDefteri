@@ -34,18 +34,18 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.darkModecbox = new System.Windows.Forms.CheckBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.tbTitle = new System.Windows.Forms.TextBox();
-            this.tbSummary = new System.Windows.Forms.TextBox();
-            this.tbJobText = new System.Windows.Forms.TextBox();
-            this.dateDate = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dateDate = new System.Windows.Forms.DateTimePicker();
+            this.tbJobText = new System.Windows.Forms.TextBox();
+            this.tbSummary = new System.Windows.Forms.TextBox();
+            this.tbTitle = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -65,11 +65,11 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.darkModecbox);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Margin = new System.Windows.Forms.Padding(2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 25);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(2);
-            this.tabPage2.Size = new System.Drawing.Size(898, 510);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.tabPage2.Size = new System.Drawing.Size(1200, 631);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Ayarlar";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -77,10 +77,10 @@
             // darkModecbox
             // 
             this.darkModecbox.AutoSize = true;
-            this.darkModecbox.Location = new System.Drawing.Point(189, 6);
-            this.darkModecbox.Margin = new System.Windows.Forms.Padding(2);
+            this.darkModecbox.Location = new System.Drawing.Point(252, 7);
+            this.darkModecbox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.darkModecbox.Name = "darkModecbox";
-            this.darkModecbox.Size = new System.Drawing.Size(79, 17);
+            this.darkModecbox.Size = new System.Drawing.Size(96, 20);
             this.darkModecbox.TabIndex = 0;
             this.darkModecbox.Text = "Dark Mode";
             this.darkModecbox.UseVisualStyleBackColor = true;
@@ -98,150 +98,161 @@
             this.tabPage3.Controls.Add(this.button4);
             this.tabPage3.Controls.Add(this.groupBox1);
             this.tabPage3.Controls.Add(this.pictureBox1);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Location = new System.Drawing.Point(4, 25);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 1);
-            this.tabPage3.Size = new System.Drawing.Size(898, 510);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 1);
+            this.tabPage3.Size = new System.Drawing.Size(1200, 631);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "DEFTER";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
+            // textBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(328, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(235, 510);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.textBox1.Location = new System.Drawing.Point(192, 191);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Multiline = true;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(235, 153);
+            this.textBox1.TabIndex = 20;
             // 
-            // groupBox1
+            // label1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(0, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(139, 510);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Günler";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(291, 101);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(38, 16);
+            this.label1.TabIndex = 19;
+            this.label1.Text = "Tarih";
             // 
-            // button4
+            // dateDate
             // 
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.ImageKey = "ekle.png";
-            this.button4.ImageList = this.ımageList1;
-            this.button4.Location = new System.Drawing.Point(145, 19);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
-            this.button4.Size = new System.Drawing.Size(86, 27);
-            this.button4.TabIndex = 1;
-            this.button4.Text = "    Ekle";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.dateDate.Location = new System.Drawing.Point(192, 119);
+            this.dateDate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.dateDate.Name = "dateDate";
+            this.dateDate.Size = new System.Drawing.Size(235, 22);
+            this.dateDate.TabIndex = 18;
             // 
-            // button3
+            // tbJobText
             // 
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.ImageKey = "ekle.png";
-            this.button3.Location = new System.Drawing.Point(145, 52);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(0, 0, 12, 0);
-            this.button3.Size = new System.Drawing.Size(177, 27);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "DÜZENLE";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.tbJobText.BackColor = System.Drawing.Color.White;
+            this.tbJobText.Location = new System.Drawing.Point(645, 177);
+            this.tbJobText.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbJobText.Multiline = true;
+            this.tbJobText.Name = "tbJobText";
+            this.tbJobText.Size = new System.Drawing.Size(540, 440);
+            this.tbJobText.TabIndex = 7;
+            this.tbJobText.Text = "YAPILAN İŞ";
+            // 
+            // tbSummary
+            // 
+            this.tbSummary.BackColor = System.Drawing.Color.White;
+            this.tbSummary.Location = new System.Drawing.Point(916, 23);
+            this.tbSummary.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbSummary.Multiline = true;
+            this.tbSummary.Name = "tbSummary";
+            this.tbSummary.Size = new System.Drawing.Size(269, 146);
+            this.tbSummary.TabIndex = 7;
+            this.tbSummary.Text = "ÖZET";
+            // 
+            // tbTitle
+            // 
+            this.tbTitle.BackColor = System.Drawing.Color.RosyBrown;
+            this.tbTitle.Location = new System.Drawing.Point(643, 23);
+            this.tbTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbTitle.Multiline = true;
+            this.tbTitle.Name = "tbTitle";
+            this.tbTitle.Size = new System.Drawing.Size(264, 146);
+            this.tbTitle.TabIndex = 6;
+            this.tbTitle.Text = "BAŞLIK";
             // 
             // button5
             // 
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.button5.ImageIndex = 4;
             this.button5.ImageList = this.ımageList1;
-            this.button5.Location = new System.Drawing.Point(236, 19);
+            this.button5.Location = new System.Drawing.Point(315, 23);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 12, 0);
-            this.button5.Size = new System.Drawing.Size(86, 27);
+            this.button5.Padding = new System.Windows.Forms.Padding(13, 0, 16, 0);
+            this.button5.Size = new System.Drawing.Size(115, 33);
             this.button5.TabIndex = 2;
             this.button5.Text = "Çıkar ";
             this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // tbTitle
+            // button3
             // 
-            this.tbTitle.BackColor = System.Drawing.Color.RosyBrown;
-            this.tbTitle.Location = new System.Drawing.Point(482, 19);
-            this.tbTitle.Multiline = true;
-            this.tbTitle.Name = "tbTitle";
-            this.tbTitle.Size = new System.Drawing.Size(199, 119);
-            this.tbTitle.TabIndex = 6;
-            this.tbTitle.Text = "BAŞLIK";
+            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button3.ImageKey = "ekle.png";
+            this.button3.Location = new System.Drawing.Point(193, 64);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Name = "button3";
+            this.button3.Padding = new System.Windows.Forms.Padding(0, 0, 16, 0);
+            this.button3.Size = new System.Drawing.Size(236, 33);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "DÜZENLE";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // tbSummary
+            // button4
             // 
-            this.tbSummary.BackColor = System.Drawing.Color.White;
-            this.tbSummary.Location = new System.Drawing.Point(687, 19);
-            this.tbSummary.Multiline = true;
-            this.tbSummary.Name = "tbSummary";
-            this.tbSummary.Size = new System.Drawing.Size(203, 119);
-            this.tbSummary.TabIndex = 7;
-            this.tbSummary.Text = "ÖZET";
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.button4.ImageKey = "ekle.png";
+            this.button4.ImageList = this.ımageList1;
+            this.button4.Location = new System.Drawing.Point(193, 23);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Name = "button4";
+            this.button4.Padding = new System.Windows.Forms.Padding(0, 0, 16, 0);
+            this.button4.Size = new System.Drawing.Size(115, 33);
+            this.button4.TabIndex = 1;
+            this.button4.Text = "    Ekle";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // tbJobText
+            // groupBox1
             // 
-            this.tbJobText.BackColor = System.Drawing.Color.White;
-            this.tbJobText.Location = new System.Drawing.Point(484, 144);
-            this.tbJobText.Multiline = true;
-            this.tbJobText.Name = "tbJobText";
-            this.tbJobText.Size = new System.Drawing.Size(406, 358);
-            this.tbJobText.TabIndex = 7;
-            this.tbJobText.Text = "YAPILAN İŞ";
+            this.groupBox1.Location = new System.Drawing.Point(0, 0);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(185, 628);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Günler";
             // 
-            // dateDate
+            // pictureBox1
             // 
-            this.dateDate.Location = new System.Drawing.Point(144, 97);
-            this.dateDate.Margin = new System.Windows.Forms.Padding(2);
-            this.dateDate.Name = "dateDate";
-            this.dateDate.Size = new System.Drawing.Size(177, 20);
-            this.dateDate.TabIndex = 18;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(218, 82);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(31, 13);
-            this.label1.TabIndex = 19;
-            this.label1.Text = "Tarih";
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(437, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(313, 628);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabPage3);
             this.tabControl1.Controls.Add(this.tabPage2);
             this.tabControl1.Location = new System.Drawing.Point(-1, 1);
-            this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(906, 536);
+            this.tabControl1.Size = new System.Drawing.Size(1208, 660);
             this.tabControl1.TabIndex = 8;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(144, 155);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 125);
-            this.textBox1.TabIndex = 20;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(905, 537);
+            this.ClientSize = new System.Drawing.Size(1207, 661);
             this.Controls.Add(this.tabControl1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "torostaj";
